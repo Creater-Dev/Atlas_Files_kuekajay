@@ -1,0 +1,107 @@
+    1  clear
+    2  cal
+    3  clear
+    4  cd
+    5  ls
+    6  dir
+    7  root
+    8  cal
+    9  fcal
+   10  sudo snap install fcal
+   11  sudo snap install ncal
+   12  cal
+   13  cls
+   14  clear
+   15  fcal
+   16  cls
+   17  cal
+   18  fcal
+   19  clear
+   20  cal
+   21  sudo upgrade
+   22  ipdate
+   23  update
+   24  exit
+   25  useradd
+   26  sudo useradd -m -s /bin/bash newuser
+   27  clear
+   28  sudo useradd -m -s /bin/bash newuser
+   29  sudo passwd newuser
+   30  cat /etc/passwd | grep newuser
+   31  passwd
+   32  sudo passwd newuser
+   33  sudo passwd -S newuser
+   34  dir
+   35  ls
+   36  cd Desktop
+   37  ls
+   38  cd Task/
+   39  ls
+   40  cat pattern.txt pattern_0.txt
+   41  cls
+   42  clear
+   43  echo -e "Agarwal\nAggarwal\nAgrawal" > pattern.txt
+   44  echo -e "Agarwal\nAggarwal\nAgrawal\nGupta\nSharma" > hellofile.txt
+   45  clear
+   46  echo -e "Agarwal\nAggarwal\nAgrawal\nGupta\nSharma" > pattern.txt
+   47  echo -e "Agarwal\nAggarwal\nAgrawal" > pattern_0.txt
+   48  grep -f pattern.txt pattern_0.txt
+   49  cat hellofile.txt
+   50  grep -A1 "Learn" hellofile.txt
+   51  grep -B1 "Learn" hellofile.txt
+   52  grep -C1 "Learn" hellofile.txt
+   53  clear
+   54  echo -e "Line1: Hello\nLine2: Learn Linux\nLine3: Practice daily\nLine4: Master it" > learn.txt
+   55  grep -A1 "Learn" learn.txt
+   56  grep -B1 "Learn" learn.txt
+   57  grep -C1 "Learn" learn.txt
+   58  grep -R "Unix" /mnt/c/Users/creat/Desktop/Task/
+   59  grep -R "unix" /mnt/c/Users/creat/Desktop/Task/
+   60  grep -iR "unix" /mnt/c/Users/creat/Desktop/Task/
+   61  ls -l hellofile.txt
+   62  touch chmod.txt
+   63  ls -i chmod.txt
+   64  ls -l chmod.txt
+   65  clear
+   66  touch chmod.txt
+   67  ls -l chmod.txt
+   68  chmod 444 chmod.txt
+   69  ls -l chmod.txt
+   70  chmod 640 chmod.txt
+   71  ls -l chmod.txt
+   72  chmod 620 chmod.txt
+   73  ls -l chmod.txt
+   74  clear
+   75  ls -l chmod.txt
+   76  chmod 444 chmod.txt
+   77  ls -l chmod.txt
+   78  chmod 640 chmod.txt
+   79  ls -l chmod.txt
+   80  chmod 420 chmod.txt
+   81  ls -l chmod.txt
+   82  touch myfile.txt  # Create a sample file
+   83  chmod 640 myfile.txt  # Apply the permissions
+   84  ls -l myfile.txt  # Verify the permissions
+   85  chmod 640 chmod.txt
+   86  ls -l myfile.txt
+   87  ls -l
+   88  chmod 640 chmod
+   89  ls -l
+   90  chmod 444 chmod
+   91  ls -l
+   92  chmod 444 chmod.txt
+   93  ls -l
+   94  chmod 751 chmod.txt
+   95  ls -l chmod.txt
+   96  chmod u=rwx,g=rx,o=x chmod.txt
+   97  ls -l chmod.txt
+   98  ls | tee output.log
+   99  cat output,log
+  100  cat output.log
+  101  script session.log
+  102  cat session.log
+  103  Get-Process | Out-File C:\ProcessLog.txt
+  104  Get-Process | Out-File /mnt/c/Users/creat/Desktop/Task\ProcessLog.txt
+  105  touch Processlog.txt
+  106  Get-Process | Out-File /mnt/c/Users/creat/Desktop/Task\ProcessLog.txt
+  107  history > history_log.txt

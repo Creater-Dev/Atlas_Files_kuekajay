@@ -1,0 +1,4 @@
+Line1: Hello
+Line2: Learn Linux
+Line3: Practice daily
+Line4: Master it

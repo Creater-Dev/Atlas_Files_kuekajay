@@ -1,0 +1,3 @@
+Hello Linux
+Linux is powerful
+Linux is open-source

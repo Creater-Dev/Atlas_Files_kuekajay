@@ -1,0 +1,6 @@
+System running smoothly
+Warning: Low memory
+error: Disk failure
+error: Network issue
+error: System isolated
+Process completed
