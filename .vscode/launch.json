@@ -1,0 +1,220 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Task040",
+            "request": "launch",
+            "mainClass": "Task040",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task039",
+            "request": "launch",
+            "mainClass": "Task039",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task038",
+            "request": "launch",
+            "mainClass": "Task038",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task037",
+            "request": "launch",
+            "mainClass": "Task037",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Hr",
+            "request": "launch",
+            "mainClass": "Hr",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "request": "attach",
+            "name": "Attach by Process ID",
+            "processId": "${command:PickJavaProcess}"
+        },
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Task001",
+            "request": "launch",
+            "mainClass": "Task001",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task002",
+            "request": "launch",
+            "mainClass": "Task002",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task003",
+            "request": "launch",
+            "mainClass": "Task003",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task004",
+            "request": "launch",
+            "mainClass": "Task004",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task005",
+            "request": "launch",
+            "mainClass": "Task005",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task006",
+            "request": "launch",
+            "mainClass": "Task006",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task007",
+            "request": "launch",
+            "mainClass": "Task007",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task008",
+            "request": "launch",
+            "mainClass": "Task008",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task009",
+            "request": "launch",
+            "mainClass": "Task009",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task010",
+            "request": "launch",
+            "mainClass": "Task010",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task011",
+            "request": "launch",
+            "mainClass": "Task011",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task012",
+            "request": "launch",
+            "mainClass": "Task012",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task013",
+            "request": "launch",
+            "mainClass": "Task013",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task014",
+            "request": "launch",
+            "mainClass": "Task014",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task015",
+            "request": "launch",
+            "mainClass": "Task015",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task016",
+            "request": "launch",
+            "mainClass": "Task016",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task017",
+            "request": "launch",
+            "mainClass": "Task017",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task018",
+            "request": "launch",
+            "mainClass": "Task018",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task019",
+            "request": "launch",
+            "mainClass": "Task019",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task020",
+            "request": "launch",
+            "mainClass": "Task020",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        }
+    ]
+}
