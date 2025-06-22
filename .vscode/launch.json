@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Task009",
+            "request": "launch",
+            "mainClass": "Exceptions.Task009",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task008",
+            "request": "launch",
+            "mainClass": "Exceptions.Task008",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task007",
+            "request": "launch",
+            "mainClass": "Exceptions.Task007",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task006",
+            "request": "launch",
+            "mainClass": "Exceptions.Task006",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task005",
+            "request": "launch",
+            "mainClass": "Exceptions.Task005",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "ExcepTest",
+            "request": "launch",
+            "mainClass": "Exceptions.ExcepTest",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Task003",
+            "request": "launch",
+            "mainClass": "Exceptions.Task003",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Geeks",
+            "request": "launch",
+            "mainClass": "Geeks",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionDemo",
+            "request": "launch",
+            "mainClass": "ExceptionDemo",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "Unchecked_Demo",
+            "request": "launch",
+            "mainClass": "Unchecked_Demo",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
+            "name": "FilenotFound_Demo",
+            "request": "launch",
+            "mainClass": "FilenotFound_Demo",
+            "projectName": "Git Hub_Atlas_f9b7e05b"
+        },
+        {
+            "type": "java",
             "name": "Task040",
             "request": "launch",
             "mainClass": "Task040",
