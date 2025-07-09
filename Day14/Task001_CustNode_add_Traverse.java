@@ -34,9 +34,7 @@ public class Task001_CustNode_add_Traverse {
         }
         System.out.println("null");
     }
-
-    // Main method to test the logic
-    public static void main(String[] args) {
+    public static void main(String[] args) {     // Main method to test the logic
         Task001_CustNode_add_Traverse list = new Task001_CustNode_add_Traverse();
 
         list.add(10);
