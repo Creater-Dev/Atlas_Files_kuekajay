@@ -1,4 +1,4 @@
-public class HomeTask_Palindrome_Recursion {
+public class HomeTask08_Palindrome_Recursion {
 
     // Recursive function to check palindrome
     public static boolean isPalindrome(String str, int start, int end) {

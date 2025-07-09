@@ -1,4 +1,4 @@
-public class HomeTask_DigitCount_Recursion {
+public class HomeTask05_DigitCount_Recursion {
 
     // Recursive function to count digits
     public static int countDigits(int num) {

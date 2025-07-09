@@ -1,4 +1,4 @@
-public class HomeTask_Reverse_NullTerminatedStr {
+public class HomeTask06_Reverse_NullTerminatedStr {
     public static void main(String[] args) {
         // Input string with null-terminator
         char[] str = {'H', 'e', 'l', 'l', 'o', '\0'};

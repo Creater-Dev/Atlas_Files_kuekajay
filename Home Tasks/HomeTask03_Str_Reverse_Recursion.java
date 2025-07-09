@@ -1,4 +1,4 @@
-public class HomeTask_Str_Reverse_Recursion {
+public class HomeTask03_Str_Reverse_Recursion {
     public static String reverse(String str) {
         if (str.length() == 0) {
             return ""; // base case

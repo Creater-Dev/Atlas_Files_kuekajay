@@ -1,4 +1,4 @@
-public class HomeTask_Dec_to_Bin_Recursion {
+public class HomeTask07_Dec_to_Bin_Recursion {
 
     // Recursive function to print binary of n
     public static void convertToBinary(int n) {

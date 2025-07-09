@@ -1,4 +1,4 @@
-public class HomeTask_FibonacciSeries {
+public class HomeTask02_FibonacciSeries {
     public static void main(String[] args) {
         int count = 10; // Change this value to get more terms
         int first = 0, second = 1;

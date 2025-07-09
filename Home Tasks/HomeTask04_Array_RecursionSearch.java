@@ -1,4 +1,4 @@
-public class HomeTask_Array_RecursionSearch {
+public class HomeTask04_Array_RecursionSearch {
 
     // Recursive function to search for a key in the array
     public static int search(int[] arr, int index, int key) {

@@ -1,4 +1,4 @@
-public class HomeTask_factorial {
+public class HomeTask01_factorial {
     public static void main(String[] args) {
         int number = 5; 
         long factorial = 1;
