@@ -1,0 +1,7 @@
+@startuml Task04_Seq_Dia
+Prasunamba -> Atlas_Batch1: Congratulations all
+Atlas_Batch1 --> Prasunamba: Thank you Meher in advance
+
+Prasunamba -> Atlas_Batch1: Good Luck for your Module 3
+Atlas_Batch1 --> Prasunamba: Thank you Meher in Advance
+@enduml

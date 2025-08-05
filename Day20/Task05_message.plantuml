@@ -1,0 +1,7 @@
+@startuml Task05_Message
+    participant "A" as A
+    participant "B" as B
+
+    A --> B: Message/action
+    B --> A: reply
+@enduml
