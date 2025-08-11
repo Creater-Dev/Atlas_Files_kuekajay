@@ -1,0 +1,45 @@
+@startuml BridgePattern
+interface Device {
+    + turnOn() : void
+    + turnOff() : void
+    + setVolume(volume : int) : void
+}
+
+class TV {
+    + turnOn() : void
+    + turnOff() : void
+    + setVolume(volume : int) : void
+}
+
+class Radio {
+    + turnOn() : void
+    + turnOff() : void
+    + setVolume(volume : int) : void
+}
+
+abstract class RemoteControl {
+    # device : Device
+    + RemoteControl(device : Device)
+    + turnOn() : void
+    + turnOff() : void
+    + setVolume(volume : int) : void
+}
+
+class BasicRemote {
+    + BasicRemote(device : Device)
+    + turnOn() : void
+    + turnOff() : void
+    + setVolume(volume : int) : void
+}
+
+class BridgePatternDemo {
+    + main(args : String[]) : void
+}
+
+Device <|.. TV
+Device <|.. Radio
+RemoteControl o-- Device
+BasicRemote --|> RemoteControl
+BridgePatternDemo --> RemoteControl
+
+@enduml

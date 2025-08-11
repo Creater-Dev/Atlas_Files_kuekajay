@@ -1,0 +1,71 @@
+@startuml Task06_Class Diagram Relationships
+
+class Student {
+    +name : String
+    +rollNo : int
+}
+
+class Course {
+    +courseName : String
+    +credits : int
+}
+
+class Team {
+    +teamName : String
+}
+
+class Player {
+    +playerName : String
+}
+
+class House {
+    +address : String
+}
+
+class Room {
+    +roomNumber : int
+}
+
+class Vehicle {
+    +speed : int
+}
+
+class Car {
+    +model : String
+}
+
+interface PaymentService {
+    +processPayment(amount: double)
+}
+
+class UPIPaymentService {
+    +processPayment(amount: double)
+}
+
+class OrderService {
+    +placeOrder()
+}
+
+class EmailService {
+    +sendEmail(message: String)
+}
+
+' Association
+Student "1" -- "0..*" Course : enrolls in
+
+' Aggregation
+Team "1" o-- "0..*" Player : has
+
+' Composition
+House "1" *-- "1..*" Room : contains
+
+' Inheritance
+Vehicle <|-- Car
+
+' Realization
+PaymentService <|.. UPIPaymentService
+
+' Dependency
+OrderService ..> EmailService : uses
+
+@enduml

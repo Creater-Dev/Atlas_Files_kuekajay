@@ -1,0 +1,22 @@
+@startuml ClassDiagram
+title Animal Class Diagram
+class Animal {
+    - name : String
+    + Animal(name : String)
+    + getName() : String
+    + makeSound() : void
+}
+
+class Dog {
+    + Dog(name : String)
+    + makeSound() : void
+}
+
+class Cat {
+    + Cat(name : String)
+    + makeSound() : void
+}
+
+Animal <|-- Dog
+Animal <|-- Cat
+@enduml

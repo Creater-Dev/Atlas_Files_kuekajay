@@ -1,0 +1,26 @@
+@startuml ProxyPattern
+interface DBExecutor {
+    + runQuery(type : String) : void
+}
+
+class DB {
+    + DB()
+    + runIt(type : String, id : String) : void
+}
+
+class DBProxy {
+    - id : String
+    - db : DB
+    + DBProxy(id : String)
+    + runQuery(type : String) : void
+}
+
+class ClientProxyDP {
+    + main(args : String[]) : void
+}
+
+DBExecutor <|.. DBProxy
+DBProxy --> DB : "uses"
+ClientProxyDP --> DBExecutor : "calls"
+
+@enduml

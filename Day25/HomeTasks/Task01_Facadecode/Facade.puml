@@ -1,0 +1,34 @@
+@startuml BankFacade
+class BankFacade {
+    - fdService : FdService
+    - loanService : LoanService
+    - accountService : AccountService
+    + BankFacade()
+    + getFdServiceDetails(accountNo : String) : void
+    + getLoanServiceDetails(accountNo : String) : void
+    + getAccountServiceDetails(accountNo : String) : void
+}
+
+class FdService {
+    + getFdServiceDetails(accountNo : String) : void
+}
+
+class LoanService {
+    + getLoanDetails(accountNo : String) : void
+}
+
+class AccountService {
+    + getAccountDetails(accountNo : String) : void
+}
+
+class Main {
+    + main(args : String[]) : void
+}
+
+' Relationships
+BankFacade --> FdService
+BankFacade --> LoanService
+BankFacade --> AccountService
+Main --> BankFacade : uses
+
+@enduml

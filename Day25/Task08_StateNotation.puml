@@ -1,0 +1,6 @@
+@startuml Task08_StateNotation
+[*] --> Idle : initial state
+Idle --> Processing : start order
+Processing --> Shipped : order completed
+Shipped --> [*] : final state
+@enduml

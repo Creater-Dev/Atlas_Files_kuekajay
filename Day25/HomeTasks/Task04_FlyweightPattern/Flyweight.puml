@@ -1,0 +1,31 @@
+@startuml FlyWeightPattern
+interface Shape {
+    + draw() : void
+}
+
+class Circle {
+    - color : String
+    - x : int
+    - y : int
+    - radius : int
+    + Circle(color : String)
+    + setX(x : int) : void
+    + setY(y : int) : void
+    + setRadius(radius : int) : void
+    + draw() : void
+}
+
+class ShapeFactory {
+    - circleMap : Map<String, Shape>
+    + getCircle(color : String) : Shape
+}
+
+class FlyweightPatternDemo {
+    + main(args : String[]) : void
+}
+
+Shape <|.. Circle
+ShapeFactory --> Shape
+FlyweightPatternDemo --> ShapeFactory
+
+@enduml

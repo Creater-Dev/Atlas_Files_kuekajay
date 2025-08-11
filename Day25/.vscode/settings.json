@@ -1,0 +1,13 @@
+{
+  "java.project.sourcePaths": [
+    "HomeTasks/Task04_FlyweightPattern",
+    "HomeTasks/Task03_ProxyPattern",
+    "HomeTasks/Task02_Composite",
+    "HomeTasks/Task01_Facadecode",
+    "HomeTasks/Facadecode",
+    "BuilderPatternDemo",
+    "AdapterPatternDemo",
+    "HomeTasks/Task05_BridgePattern"
+  ],
+  "java.project.referencedLibraries": []
+}

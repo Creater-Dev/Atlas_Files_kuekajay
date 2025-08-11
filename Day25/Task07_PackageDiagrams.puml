@@ -1,0 +1,40 @@
+@startuml Task07_PackageDiagrams
+
+' Define packages
+package "User Management" {
+    class User {
+        +userId : int
+        +name : String
+    }
+    class Profile {
+        +email : String
+        +phone : String
+    }
+}
+
+package "Order Processing" {
+    class Order {
+        +orderId : int
+        +date : Date
+    }
+    class Payment {
+        +amount : double
+    }
+}
+
+package "Notification Service" {
+    class EmailService {
+        +sendEmail(message: String)
+    }
+    class SMSService {
+        +sendSMS(message: String)
+    }
+}
+
+' Relationships
+User --> Order : places
+Order --> Payment : paid by
+Payment --> EmailService : sends receipt
+Payment --> SMSService : sends confirmation
+
+@enduml

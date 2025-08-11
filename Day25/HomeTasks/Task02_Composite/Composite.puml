@@ -1,0 +1,25 @@
+@startuml Composite
+interface Component {
+    + brandName() : void
+}
+
+class Leaf {
+    - brand : String
+    + Leaf(brand : String)
+    + brandName() : void
+}
+
+class Composite {
+    - components : List<Component>
+    - groupName : String
+    + Composite(groupName : String)
+    + brandName() : void
+    + add(subComponent : Component) : void
+    + remove(subComponent : Component) : void
+}
+
+Component <|.. Leaf
+Component <|.. Composite
+Composite "1" o-- "*" Component
+
+@enduml
