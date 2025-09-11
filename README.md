@@ -14,7 +14,9 @@
 - Day 2  
 - Day 3  
 - Day 4  
-- Day 5  
+- Day 5
+- Day 17
+- Day 19
 - Day 27  
 - Day 33  
 
