@@ -1,0 +1,25 @@
+@startuml PackageDiagram
+package "command" {
+    [Command]
+    [LightOnCommand]
+    [LightOffCommand]
+}
+
+package "receiver" {
+    [Light]
+}
+
+package "invoker" {
+    [RemoteControl]
+}
+
+package "client" {
+    [CommandDemo]
+}
+
+[LightOnCommand] --> [Light] : uses
+[LightOffCommand] --> [Light] : uses
+[RemoteControl] --> [Command] : depends on
+[CommandDemo] --> [RemoteControl] : creates
+[CommandDemo] --> [Light] : creates
+@enduml
