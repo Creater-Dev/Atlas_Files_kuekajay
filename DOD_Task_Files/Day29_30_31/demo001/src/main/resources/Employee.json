@@ -1,0 +1,23 @@
+[
+  {
+    "ID": 1001,
+    "NomenClature": "EMP1001",
+    "Name": "Ajay",
+    "Age": 30,
+    "Location": "Delhi"
+  },
+  {
+    "ID": 1002,
+    "NomenClature": "EMP1002",
+    "Name": "Kumar",
+    "Age": 25,
+    "Location": "Hyd"
+  },
+  {
+    "ID": 1003,
+    "NomenClature": "EMP1002",
+    "Name": "Kadiyala",
+    "Age": 22,
+    "Location": "Hyd"
+  }
+]
